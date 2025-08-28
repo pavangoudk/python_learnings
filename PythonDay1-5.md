@@ -107,4 +107,34 @@ for i in range(len(numbers)):
     count += numbers[i]
 print("the sum of all numbers in the list is ", count)    
 ```
+#Day 5
+
+###13. Count the number of words in a sentence.
+
+```python
+string = "I am interested in python programming language"
+str_split = string.split()
+print(str_split)
+print("the count of all words in the string  is ", len(str_split))    
+```
+###14. Find the minimum value in a list.
+
+```python
+li = [6,2,3,4,5,1,9,7,8]
+min_arr=li[0]
+for i in range(len(li)):
+    print("value going in",li[i])
+    print("iteration",i)
+    print(li[i],">",min_arr) #checking 
+    if li[i]>min_arr:
+       min_arr = li[i]
+
+print("min value in list",min_arr)
+```
+###15. Print every character of a string on a new line.
+```python
+string = "every character of a string on a new line"
+for char in string:
+    print(char)
+```
 

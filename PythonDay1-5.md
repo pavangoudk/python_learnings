@@ -100,16 +100,18 @@ for num in range(51):
        print(num,"num is 0dd")
 ```
 ### 12. Sum all numbers in a list.
+
 ```python
 numbers = [1, 2, 3, 4, 5]
 count = 0
 for i in range(len(numbers)):
     count += numbers[i]
 print("the sum of all numbers in the list is ", count)    
-```
-#Day 5
 
-###13. Count the number of words in a sentence.
+```
+# Day 5
+
+### 13. Count the number of words in a sentence.
 
 ```python
 string = "I am interested in python programming language"
@@ -117,7 +119,7 @@ str_split = string.split()
 print(str_split)
 print("the count of all words in the string  is ", len(str_split))    
 ```
-###14. Find the minimum value in a list.
+### 14. Find the minimum value in a list.
 
 ```python
 li = [6,2,3,4,5,1,9,7,8]
@@ -131,7 +133,7 @@ for i in range(len(li)):
 
 print("min value in list",min_arr)
 ```
-###15. Print every character of a string on a new line.
+### 15. Print every character of a string on a new line.
 ```python
 string = "every character of a string on a new line"
 for char in string:

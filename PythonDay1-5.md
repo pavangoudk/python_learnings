@@ -85,7 +85,26 @@ else:
 ```
 # Day 4
 ### 10. Print numbers from 1 to 20 using a loop.
-
+```python
+for i in range(25):
+    print("using for loop",i)
+```
 
 ### 11. Print all even numbers between 1 and 50.
+```python
+for num in range(51): 
+    if num%2 == 0:
+        print(num,"num is even")
+    else:
+       continue   # after this statment the code won't execute it will start from first again 
+       print(num,"num is 0dd")
+```
 ### 12. Sum all numbers in a list.
+```python
+numbers = [1, 2, 3, 4, 5]
+count = 0
+for i in range(len(numbers)):
+    count += numbers[i]
+print("the sum of all numbers in the list is ", count)    
+```
+

@@ -9,20 +9,23 @@ num2 = input("enter the number2:")
 sum = int(num1) + int(num2)
 print("The sum of two numbers is "+ str(sum))
 ```
-# Check if a number is even or odd.
+### Check if a number is even or odd.
+
+```
 num = int(input("enter the number:"))
 
 if num%2 == 0:
     print("the given number is even")
 else:
     print("the given number is 0dd")
+```
     
-# Reverse a string entered by the user.
-
+### Reverse a string entered by the user.
+```
 string = "python is a programmin langauage"
 rev_string = string[::-1]
 print(rev_string)
-
+```
 
 # Day 2
 

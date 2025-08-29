@@ -54,4 +54,69 @@ for char in string:
 print(count)   
 ```
 
+# Day 7
+### 19. Check if a number is prime.
+```python
+import math
+from math import sqrt
+n= 53
+flag = 0
+
+if n>1:
+    for i in range(2,int(math.sqrt(n)) + 1):
+        if n%i == 0: 
+            flag = 1
+            break
+    if (flag == 0):
+        print(n,"True", "it'a a prime")
+    else:
+         print(n,"False","it's not prime")
+else:
+    print("False")
+  
+ ```       
+### 20. Print all prime numbers up to 100.
+``` python
+import math
+from math import sqrt
+#n= 53
+#flag = 0
+for n in range(1,5):
+    flag = 0
+    if n>1:
+        for i in range(2,int(math.sqrt(n)) + 1):
+            if n%i == 0: 
+                flag = 1
+                break
+        if (flag == 0):
+            print(n,"True", "it'a a prime")
+        else:
+             print(n,"False","it's not prime")
+    else:
+        print("False")    
+```
+### 21. Find the sum of digits of a number.
+```python
+number = 5050505
+string = str(number)
+a = len(string)
+print(a)
+count = 0
+for n in string:
+    count = count+int(n)
+
+print(count)    
+```
+### Method2
+```python
+def sum_of_digits(n):
+    total = 0
+    for digit in str(abs(n)):  # Handles negative numbers as well
+        total += int(digit)
+    return total
+
+# Example usage:
+number = 12345
+print(sum_of_digits(number))  # Output: 15
+```
 

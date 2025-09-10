@@ -119,4 +119,24 @@ def sum_of_digits(n):
 number = 12345
 print(sum_of_digits(number))  # Output: 15
 ```
+# Day 8
+### 22. Remove duplicates from a list.
+```python
+my_list = [1, 2, 2, 3, 4, 4, 5]
+unique = set(my_list)
+print(unique)
+```
+### 23. Sort a list in ascending order.
+```python
+my_list = [4, 8, 2, 7, 5, 11, 9]
+my_list.sort()
+print(my_list)
+```
 
+### 24. Find the second largest number in a list.
+```python
+my_list = [1, 2, 2, 3, 4, 4, 5]
+unique = set(my_list)
+res = list(unique)
+print(res[-2])
+```
